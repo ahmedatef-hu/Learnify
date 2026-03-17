@@ -1,0 +1,31 @@
+{
+  "name": "learnify-monorepo",
+  "version": "1.0.0",
+  "description": "Learnify - AI-Powered Learning Platform",
+  "private": true,
+  "scripts": {
+    "build": "cd backend && npm install && echo 'Backend ready for deployment'",
+    "start": "cd backend && npm start",
+    "dev:backend": "cd backend && npm start",
+    "dev:frontend": "cd learnify-react && npm run dev",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd learnify-react && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedatef-hu/Learnify-FrontEnd.git"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "learning",
+    "react",
+    "nodejs"
+  ],
+  "author": "Ahmed Atef",
+  "license": "MIT"
+}
